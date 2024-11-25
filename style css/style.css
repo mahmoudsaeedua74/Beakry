@@ -1,0 +1,288 @@
+* {
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/*shar section*/
+.clearFix {
+    clear: both;
+}
+h2 {
+    font-size: 32px; }
+h3 {
+        font-size: 30px;}
+h4 {
+    font-size: 22px; }
+p{
+    
+       font-size: 17px; }
+ul{
+        list-style: none;
+       }
+.continer {
+    width: 90%;
+    margin-inline: auto;
+}
+.commancolor {
+    background-color: #f8f8f8;
+}
+/* START OF HOME SECTION*/
+div.home_section {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 90vh;
+    background-size:cover ;
+    color: white;   
+    background-position: center; 
+    margin-bottom: 50px;
+    
+    /* انا مكنتش حاطتتها ف الاول وخليت الصوره ف النص بالظبط مع المحتوي وخلت الصوره تبان بالابعاد كلها */
+}
+div.home_section div.home-layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+.navbar {
+    padding: 20px 0px;
+}
+div.home_section div.navbar div.navbar-logo {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+div.home_section div.navbar div.navbar-logo img {
+    width: 25%;
+}
+div.home_section div.navbar div.navbar-linkes {
+    display: inline-block;
+    width: 48%;
+    text-align: end;
+}
+
+div.home_section div.navbar div.navbar-linkes ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 12px;
+}
+div.home_section div.navbar div.navbar-linkes ul a {
+    text-decoration: none;
+    color: white;
+
+}
+div.home_section div.contanet {
+    text-align: center;
+    margin-top: 150px;
+}
+div.home_section div.contanet h1 {
+    margin: 40px;
+    font-size: 64px;
+}
+
+div.home_section div.contanet button {
+    margin: 40px 5px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #8e7754;
+    border: solid 2px transparent;
+    color: white;
+} 
+div.home_section div.contanet button.button-contan {
+    background-color: transparent;
+    border: solid 2px white;
+} 
+.button {
+    width: 25px;
+    height: 40px;
+    margin-inline: auto;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+/* end of home section*/
+/* start of section  Who we are*/
+div.section_who_are_we {
+    padding-block:50px;
+}
+
+div.section_who_are_we  div.continer div.section_img {
+    width: 45%;
+    display: inline-block;
+}
+div.section_who_are_we  div.continer div.section_img  img{
+    width: 100%;
+}
+div.section_who_are_we  div.continer div.sectoin_text {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50px;
+    margin-left: 20px;
+    line-height: 1.86em;
+
+  
+}
+div.section_who_are_we  div.continer div.sectoin_text h2{
+    margin-top: 30px;
+    color: black;
+    padding-bottom: 30px;
+
+}
+div.section_who_are_we  div.continer div.sectoin_text div.listSection ul {
+    
+    padding: 0  ;/* انا خليتها بالسالب عشان تيجي تحت الكلام بالظبط*/
+}
+
+div.section_who_are_we  div.continer div.sectoin_text div.listSection li {
+ 
+}
+div.section_who_are_we  div.continer div.sectoin_text li img {
+    border: solid 1px rgb(228, 220, 220);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+div.section_who_are_we  div.continer div.sectoin_text li p {
+    display: inline-block;
+    vertical-align: middle;
+  
+
+    /*هنا انا غيرت الاسبان ل p 
+    وظبط معايا اكتر */
+} 
+div.section_who_are_we  div.continer div.sectoin_text  p {
+    color: #686868;
+    line-height: 1.86em;
+}
+
+/*end of section  Who we are */
+/* start  of section  our location */
+div.section_our_location {
+
+    padding-block:50px;
+}
+div.section_our_location div.continer div.text_our_location {
+    width: 48%;
+    display: inline-block;
+    margin-top: 100px;
+    vertical-align: top;
+
+}
+div.section_our_location div.continer div.text_our_location p{
+
+    color: #686868;
+}
+div.section_our_location div.continer div.text_our_location h2,p {
+    margin-bottom: 30px;
+    
+    
+}
+div.section_our_location div.continer div.img_ourLocation {
+    width: 45%;
+    display: inline-block;
+    padding-block: 30px ;
+    text-align: end;
+}
+div.section_our_location div.continer div.img_ourLocation img {
+    width: 100%;
+ 
+}
+/* end  of section  our location */
+/*start  of section  Our Baking*/
+div.section_our_baking {
+    padding:  50px;
+}
+div.section_our_baking div.continer div.text{
+text-align: center;
+
+}
+div.section_our_baking div.continer div.item{
+    width: 33.33%;
+    float: left;
+    padding-inline: 0 30px;
+    text-align: center;
+    margin-block: 30px;
+}
+div.section_our_baking div.continer div.item div.itemOne {
+    float: left;
+    padding-inline: 30px 0;
+}
+div.section_our_baking div.continer div.item img {
+    width: 100%;
+}
+div.section_our_baking div.continer h3,div.section_our_baking div.continer div.item h4,div.section_infomatino div.continer div.ContactInformation h2 {
+    margin-block: 30px;
+}
+/* end  of section  Our Baking*/
+/* start   of section  Contact Information- */
+div.section_infomatino div.continer div.ContactInformation {
+    float: left;
+    width: 50%;  
+    margin-block: 30px;
+}
+div.section_infomatino div.continer div.maps{
+    float: right;
+    width: 50%;
+    margin-block: 30px;
+    padding: 30px;
+}
+div.section_infomatino div.continer div.maps iframe {
+    width: 90%;
+}
+div.section_infomatino div.continer  ul li img{
+    width: 40px;
+    height: 40px;
+    background-color: #8e7754;
+    border-radius: 100%;
+}
+div.section_infomatino div.continer  ul li {
+    padding-block: 10px;    
+}
+div.section_infomatino div.continer  ul li p {
+    display: inline-block;
+    vertical-align: middle;
+    padding:0  5px;
+}
+
+/* end   of section  Contact Information- */
+/* start    of section  flooat */
+div.section_flooat {
+    background-color: #403d38;
+    color: #969696;
+}
+div.section_flooat  div.continer {
+    padding: 50px;  
+}
+div.section_flooat  div.continer div.About {
+    float: left;
+    width: 25%;
+    padding: 25px;
+}
+div.section_flooat  div.continer div.About h4 {
+    margin-block: 20px;
+    color: #ffffff; 
+}
+div.section_flooat  div.continer div.About ul li {
+    padding-block: 10px;    
+}
+div.section_flooat  div.continer div.About ul li.underline {
+    padding-block: 10px;    
+    border-bottom:   1px solid rgba(255,255,255,0.05);
+}
+/* end    of section  flooat */
+/* start of section bakery  */
+div.section_bakery {
+    background-color: #353330;
+}
+div.section_bakery div.continer {
+    padding: 50px;  
+    text-align: center;
+}
+div.section_bakery div.continer p{
+    margin: 30px;
+}
+div.section_bakery div.continer div.social a img {
+    width: 5%;
+    background-color: #403d38;
+    border-radius: 100%;
+    margin-inline: 5px  ;
+}
+/* end of section bakery  */
